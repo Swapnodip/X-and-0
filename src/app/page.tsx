@@ -55,7 +55,7 @@ export default function Home() {
 
     return " "; // No winner yet
   };
-  let winner = checkWinner();
+  const winner = checkWinner();
   return (
     <div className="pt-24">
       <div className="text-center text-2xl mb-6">
